@@ -9,6 +9,7 @@ export default class NewsList extends Component {
   render () {
     return (
       <div className="container">
+
         <Card className="card-container">
           {/* <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" /> */}
           <CardBody className="card-body">

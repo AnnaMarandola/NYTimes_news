@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import { Button, Form, Label, Input } from 'reactstrap'
 import './SearchBar.css'
 import Title from "../assets/NYT-title.png"
@@ -21,7 +21,7 @@ export default class SearchBar extends Component {
             <div className="col-auto">
               <i className="searched-text" />
             </div>
-            <div className="col">
+            <div className="tb">
               <Input
                 className="form-control"
                 type="search"

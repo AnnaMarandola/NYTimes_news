@@ -5,14 +5,17 @@
 
 .header {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .nyt-title {
-    width: 80%;
+    width: 100%;
     margin: 2rem;
 
 }
-.header {
+nav.header {
+    margin-top: -3rem;
 }
 .search-bar {
     margin-left: 2rem;
@@ -27,7 +30,7 @@
 .form-label {
     padding-bottom: 2rem;
     color: black;
-    font-style: italic;
+    font-weight: bold;
 }
 .btn-container {
     margin-top: 1.5rem;
@@ -40,6 +43,8 @@
     font-weight: bold;
     background-color: #fcbf1e;
 }
+
+
 
 
 

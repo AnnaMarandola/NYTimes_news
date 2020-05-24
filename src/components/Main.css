@@ -2,6 +2,17 @@
   box-sizing: border-box; 
 
 }
+.header {
+  margin-left: -2rem;
+}
+.top-bar {
+  height: 4rem;
+  background-color: #2f302f;
+}
+.footer {
+  height: 3rem;
+  background-color: #2f302f;
+}
 .logo-container {
   text-align: center;
 }
@@ -15,17 +26,20 @@
 }
 
 
-header {
-  background-color: silver;
+.app {
+  background-color: #fffff3;
 }
 
+
 .curve {
+  display: flex;
   color: white;
   position: relative;
   overflow: hidden;
   padding: 3rem 2rem;
   width: 100%;
   z-index: 2;
+  opacity: 1;
 }
   
   .curve::before {
@@ -36,11 +50,29 @@ header {
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+    opacity: 1;
     border-radius: 150vw;
-    width: 300vw;
-    height: 300vw;
+    width: 200vw;
+    height: 200vw;
     z-index: -1;
   }
 
 
 
+
+  .clear-btn-off {
+    opacity: 0;
+}
+
+.clear-btn {
+    margin-left: 2rem;
+    background-color: #6a60a9;
+    color: #fcbf1e;
+    font-weight: bold;
+    font-size: 0.75rem;
+    border-radius: 22px;
+    width: 2.5rem;
+    height: 2rem;
+    margin-top: 30%;
+  
+  }
