@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 2rem;
+}
+
+.nyt-title {
+    width: 80%;
+    margin: 2rem;
+
+}
+.header {
+}
+.search-bar {
+    margin-left: 2rem;
+}
+.form-control {
+ margin-top: 1rem;
+ height: 2rem;
+ border: solid 2px #6a60a9;
+ border-radius: 5px;
+}
+
+.form-label {
+    padding-bottom: 2rem;
+    color: black;
+    font-style: italic;
+}
+.btn-container {
+    margin-top: 1.5rem;
+}
+.search-btn {
+    border-radius: 10px;
+    width: 5rem;
+    height: 1.8rem;
+    color: #6a60a9;
+    font-weight: bold;
+    background-color: #fcbf1e;
+}
+
+
+
+
+

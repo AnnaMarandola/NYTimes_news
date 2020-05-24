@@ -1,6 +1,8 @@
 import React from 'react'
 import NewsList from './components/NewsList'
 import SearchBar from './components/SearchBar'
+import './App.css'
+import BigLogo from '../src/assets/nyt-logo.png'
 
 
 class App extends React.Component {
@@ -72,12 +74,18 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
-        <h1>New York Times News</h1>
+        <div className="curve">
         <SearchBar 
         change={this.handleChange} 
         submit={this.handleSubmit}
         />
+        </div>
+        <div className="body">
         <NewsList results={this.state.results}/>
+        <div className="logo-container">
+        <img  className="big-logo" src={BigLogo} alt="Nytimes Logo PNG" />
+        </div>
+        </div>
       </div>
     );
   }
